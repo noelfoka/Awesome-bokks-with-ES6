@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Awesome Books With ES6</title>
-        <link rel="stylesheet" href="./styles.css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Awesome Books with ES6</title>
     </head>
     <body>
-        <h1 id="header">Awesome Books</h1>
-
-        <script src="./index.js"></script>
+        <header class="navigation">
+            <nav class="navbar">
+                <img src="logo/book.png" alt="book-logo" class="logo">
+                <ul class="nav-list">
+                    <li id="list" class="nav-link"><a href="#">List</a></li>
+                    <li id="add" class="nav-link"><a href="#">Add new</a></li>
+                    <li id="contact" class="nav-link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="date-time">
+            <p id="date-time"></p>
+        </div>
+        <main>
+            <section class="container">
+                <h1>All Awesome Books</h1>
+                <div class="lib-catalogue">
+                </div>
+            </section>
+            <section class="form-container">
+                <h1>Add A New Book</h1>
+                <form action="#" method="Post" class="form-input">
+                    <input type="text" name="title" placeholder="Title" />
+                    <input type="text" name="author" placeholder="Author" />
+                    <button type="button" id="add-btn" class="add-book-btn">Add</button>
+                </form>
+            </section>
+            <section class="contact">
+                <h2>Contact information</h2>
+                <div class="contact-container">
+                    <p>
+                        Do have any question or you need help?
+                        <br />
+                        You can reach out to us
+                    </p>
+                    <ul>
+                        <li>Our e-mail: mail@mail.com</li>
+                        <li>Our phone number: +237690672268</li>
+                        <li>Our address: Douala, PK14, Cameroon</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="copyright">
+            <img src="logo/book.png" alt="book-logo">
+            <p class="footer-p"> 2022 Awesome Books <br>Design by Noel Foka</p>
+        </footer>
+        <script type="module" src="index.js"></script>
     </body>
 </html>
