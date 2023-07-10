@@ -4,11 +4,65 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Awesome Books With ES6</title>
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <h1 id="header">Awesome Books</h1>
+        <body>
+            <header>
+                <div class="bar">
+                    <h1 id="h1" class="h1">Awesome books</h1>
+                    <ul>
+                        <li><a href="#" id="list">List</a></li>
+                        <li>|</li>
+                        <li><a href="#" id="new">Add new</a></li>
+                        <li>|</li>
+                        <li><a href="#" id="contact">Contact</a></li>
 
-        <script src="./index.js"></script>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="local">
+                <span id="time">
+                </span>
+            </div>
+
+            <div class="container-list" id="container-list">
+                <h1>All awesome books</h1>
+                <div class="container" id="container"></div>
+            </div>
+
+            <div class="addBook" id="addbook">
+                <h1 class="h12">Add a new book</h1>
+                <form action id="form">
+                    <input type="text" id="title" name="Title"
+                        placeholder="Title">
+                    <input type="text" id="author" name="Author"
+                        placeholder="Author">
+                    <input type="button" value="Add" id="add">
+                </form>
+            </div>
+
+            <div class="info" id="contact-container">
+                <h1>Contact information</h1>
+                <p>Do you have any questions or you just want to say "Hello"?
+                    You can reach out to us
+                </p>
+                <ul>
+                    <li>Our e-mail: mail@mail.com</li>
+                    <li>Our phone number : 00</li>
+                    <li>Our address: Streetname: , City: , Country</li>
+                </ul>
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <h2 class="h2">Copyright ...</h2>
+                </div>
+            </footer>
+
+            <script type="module" src="./index.js"></script>
+
+        </body>
     </body>
 </html>
