@@ -1,71 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Awesome Books With ES6</title>
-        <link rel="stylesheet" href="./index.css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Awesome Books with ES6</title>
     </head>
     <body>
-        <body>
-            <header>
-                <div class="bar">
-                    <h1 id="h1" class="h1">Awesome books</h1>
+        <header class="navigation">
+            <nav class="navbar">
+                <img src="logo/book.png" alt="book-logo" class="logo">
+                <ul class="nav-list">
+                    <li id="list" class="nav-link"><a href="#">List</a></li>
+                    <li id="add" class="nav-link"><a href="#">Add new</a></li>
+                    <li id="contact" class="nav-link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="date-time">
+            <p id="date-time"></p>
+        </div>
+        <main>
+            <section class="container">
+                <h1>All Awesome Books</h1>
+                <div class="lib-catalogue">
+                </div>
+            </section>
+            <section class="form-container">
+                <h1>Add A New Book</h1>
+                <form action="#" method="Post" class="form-input">
+                    <input type="text" name="title" placeholder="Title" />
+                    <input type="text" name="author" placeholder="Author" />
+                    <button type="button" id="add-btn" class="add-book-btn">Add</button>
+                </form>
+            </section>
+            <section class="contact">
+                <h2>Contact information</h2>
+                <div class="contact-container">
+                    <p>
+                        Do have any question or you just want to say "Hello"?
+                        <br />
+                        You can reach out to us
+                    </p>
                     <ul>
-                        <li><a href="#" id="list">List</a></li>
-                        <li>|</li>
-                        <li><a href="#" id="new">Add new</a></li>
-                        <li>|</li>
-                        <li><a href="#" id="contact">Contact</a></li>
-
+                        <li>Our e-mail: mail@mail.com</li>
+                        <li>Our phone number: 0044586534422</li>
+                        <li>Our address: Streetname 22, 84503 city, country</li>
                     </ul>
                 </div>
-            </header>
-
-            <div class="local">
-                <span id="time">
-                </span>
-            </div>
-
-            <div class="container-list" id="container-list">
-                <h1>All awesome books</h1>
-                <div class="container" id="container"></div>
-            </div>
-
-            <div class="addBook" id="addbook">
-                <h1 class="h12">Add a new book</h1>
-                <form action id="form">
-                    <input type="text" id="title" name="Title"
-                        placeholder="Title">
-                    <input type="text" id="author" name="Author"
-                        placeholder="Author">
-                    <input type="button" value="Add" id="add">
-                </form>
-            </div>
-
-            <div class="info" id="contact-container">
-                <h1>Contact information</h1>
-                <p>Do you have any questions or you just want to say "Hello"?
-                    You can reach out to us
-                </p>
-                <ul>
-                    <li>Our e-mail: mail@mail.com</li>
-                    <li>Our phone number : 00</li>
-                    <li>Our address: Streetname: , City: , Country</li>
-                </ul>
-            </div>
-
-            <footer>
-                <div class="footer">
-                    <h2 class="h2">Copyright ...</h2>
-                </div>
-            </footer>
-
-            <script
-                src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
-
-            <script type="module" src="./index.js"></script>
-
-        </body>
+            </section>
+        </main>
+        <footer id="footer" class="copyright">
+            <img src="logo/book.png" alt="book-logo">
+            <p class="footer-p"> 2022 Awesome Books <br>Design by Joe & Steve</p>
+        </footer>
+        <script type="module" src="index.js"></script>
     </body>
 </html>

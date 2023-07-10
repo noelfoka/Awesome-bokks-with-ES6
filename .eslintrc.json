@@ -11,35 +11,11 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
-    "class-methods-use-this": ["off"],
-      "max-len": ["off"],
-      "no-useless-escape": ["off"],
-      "no-use-before-define": ["off"],
-      "import/no-cycle": ["off"],
-      "prefer-const": ["off"],
-      "no-plusplus": ["off"],
-      "max-classes-per-file": ["off"],
-      "no-nested-ternary": ["off"],
-      "prefer-rest-params": ["off"],
-      "no-underscore-dangle": ["off"],
-      "no-restricted-globals": ["off"],
-      "import/prefer-default-export": ["off"],
-      "no-loop-func": ["off"],
-      "no-continue": ["off"],
-      "guard-for-in": ["off"],
-      "default-case": ["off"],
-      "func-names": ["off"],
-      "brace-style": ["off"],
-      "no-restricted-syntax": ["error", "WithStatement", "BinaryExpression[operator='in']"],
-
-      "no-mixed-spaces-and-tabs": 0,
-      "no-tabs": ["error", { "allowIndentationTabs": true }],
-      "no-unused-vars": "off",
-      "no-shadow": "off",
-      "no-param-reassign": "off",
-      "eol-last": "off",
-      "import/extensions": [ 1, {
-        "js": "always", "json": "always"
+    "no-shadow": "off",
+    "no-param-reassign": "off",
+    "eol-last": "off",
+    "import/extensions": [ 1, {
+      "js": "always", "json": "always"
     }]
   },
   "ignorePatterns": [
