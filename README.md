@@ -16,12 +16,14 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Awesome Books with ES6 ](#-awesome-books-with-es6-)
   - [🛠 Built With ](#-built-with-)
+    - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
+- [🔭 Future Features ](#-future-features-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
@@ -38,6 +40,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
+
+- **Users can add and remove books**
 
 <!-- GETTING STARTED -->
 
@@ -95,6 +100,13 @@ Feel free to contact me nomgnenoel@gmail.com
 If you like this project, give me a ⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Futures Features-->
+# 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Filtering books by author**
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
